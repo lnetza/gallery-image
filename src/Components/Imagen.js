@@ -3,7 +3,6 @@ import React from 'react';
 const Imagen = ({item}) => {
 
     //Destructuring a items de unsplash
-
     const {urls,likes,description,user} = item;
     const twiter="https://twitter.com/"+user.twitter_username;
 
