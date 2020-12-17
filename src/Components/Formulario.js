@@ -20,7 +20,7 @@ const Formulario = ({setBusqueda}) => {
                     <input
                         type="text"
                         className="form-control"
-                        placeholder="Busca una imagen, ejemplo: Rosas o paisajes"
+                        placeholder="Buscar"
                         onChange={e=> setTermino(e.target.value.toLowerCase())}
                     />
 
